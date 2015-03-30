@@ -1,0 +1,52 @@
+// Estilos para la navegación
+
+
+// Estilos generales
+
+
+
+// Navegación principal
+
+
+
+// Enlace_Logo
+  
+.logo{
+    @include font-size(20);
+    font-family: $script;
+    position: fixed;
+    color: $texto4;
+        &:hover {
+            color: $destacado;
+        }
+}
+
+// Navegación footer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
