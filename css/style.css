@@ -1,0 +1,154 @@
+/* line 5, ../sass/partials/_placeholders.scss */
+.header-content, footer .footer-nav {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* line 5, ../sass/partials/_base.scss */
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+/* line 10, ../sass/partials/_base.scss */
+* {
+  box-sizing: inherit;
+}
+
+/* line 14, ../sass/partials/_base.scss */
+body {
+  margin: 0;
+}
+
+/* line 18, ../sass/partials/_base.scss */
+ul, ol {
+  margin: 0;
+}
+
+/* line 22, ../sass/partials/_base.scss */
+p, li {
+  font-family: "Karla", sans-serif;
+  margin-bottom: 0.3em;
+  font-size: 17px;
+  font-size: 1.7rem;
+  color: white;
+}
+
+/* line 29, ../sass/partials/_base.scss */
+a {
+  color: white;
+  text-decoration: none;
+}
+/* line 32, ../sass/partials/_base.scss */
+a:hover {
+  color: #d8685d;
+}
+
+/* line 37, ../sass/partials/_base.scss */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  color: #86898a;
+  font-family: "Questrial", sans-serif;
+}
+
+/* line 9, ../sass/partials/_layout.scss */
+footer {
+  padding: 150px 0 60px 0;
+}
+
+/* line 6, ../sass/partials/modules/_navigation.scss */
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+/* line 13, ../sass/partials/modules/_navigation.scss */
+.header-nav {
+  float: right;
+}
+
+/* line 17, ../sass/partials/modules/_navigation.scss */
+.header-nav li {
+  margin-right: 40px;
+}
+
+/* line 23, ../sass/partials/modules/_navigation.scss */
+.logo {
+  font-size: 20px;
+  font-size: 2rem;
+  font-family: "Dancing Script", cursive;
+  float: left;
+  position: fixed;
+  color: white;
+}
+/* line 29, ../sass/partials/modules/_navigation.scss */
+.logo:hover {
+  color: #d8685d;
+}
+
+/* line 6, ../sass/partials/modules/_header.scss */
+header {
+  background-image: url(../img/background-grey.jpg);
+  height: 645px;
+  overflow: hidden;
+}
+
+/* line 12, ../sass/partials/modules/_header.scss */
+.header-info {
+  text-align: center;
+}
+
+/* line 15, ../sass/partials/modules/_header.scss */
+.header-info {
+  text-align: center;
+}
+
+/* line 19, ../sass/partials/modules/_header.scss */
+.header-info h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+}
+
+/* line 24, ../sass/partials/modules/_header.scss */
+.network0 {
+  background-image: url(../img/face.png);
+  width: 104px;
+  height: 104px;
+}
+/* line 28, ../sass/partials/modules/_header.scss */
+.network0:hover {
+  background-image: url(../img/face_hover.png);
+}
+
+/* line 33, ../sass/partials/modules/_header.scss */
+.network1 {
+  background-image: url(../img/twitter.png);
+  width: 104px;
+  height: 104px;
+}
+/* line 37, ../sass/partials/modules/_header.scss */
+.network1:hover {
+  background-image: url(../img/twitter_hover.png);
+}
+
+/* line 42, ../sass/partials/modules/_header.scss */
+.network2 {
+  background-image: url(../img/git.png);
+  width: 104px;
+  height: 104px;
+}
+/* line 46, ../sass/partials/modules/_header.scss */
+.network2:hover {
+  background-image: url(../img/git_hover.png);
+}
+
+/* line 51, ../sass/partials/modules/_header.scss */
+.links li, a {
+  text-indent: -9999px;
+}
+
+/* line 56, ../sass/partials/modules/_header.scss */
+.header-content {
+  margin: 20px 60px;
+  height: 145px;
+}
