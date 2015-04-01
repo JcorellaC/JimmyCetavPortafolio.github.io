@@ -1,36 +1,59 @@
+
 //
 // Estilos del header
 //
 
-header {
-  background-color: $destacado1;
+header{
+  background-image:url(../img/background-grey.jpg);
+  height: 645px;
+  overflow: hidden;
 }
 
-.header-content {
-  background: url(../img/banner-head.jpg) no-repeat;
+.header-info{
   text-align: center;
-  color: #fff;
-  h1, h2, h3 {
-    color: #fff;
-  }
-  h2 {
-    @include font-size(18);
-    &:before, &:after {
-      content: "\2022";
-      margin: 0 0.6em;
+}
+.header-info{
+  text-align: center;
+}
+
+.header-info h1{
+  font-family: $script;
+  font-size: 40px;
+}
+
+.network0{
+  background-image:url(../img/face.png);
+  width: 104px;
+  height: 104px;
+    &:hover{
+      background-image:url(../img/face_hover.png);
     }
-  }
-  h3 {
-    color: #000;
-    text-transform: uppercase;
-    @include font-size(16);
-    margin: 20px 0;
-  }
-  h3 + h3 {
-    color: #fff;
-    text-transform: none;
-  }
-  .button {
-    @include button(14, $transform: uppercase);
-  }
+}
+
+.network1{
+  background-image:url(../img/twitter.png);
+  width: 104px;
+  height: 104px;
+    &:hover{
+      background-image:url(../img/twitter_hover.png);
+    }
+}
+
+.network2{
+  background-image:url(../img/git.png);
+  width: 104px;
+  height: 104px;
+    &:hover{
+      background-image:url(../img/git_hover.png);
+    }
+}
+
+.links li, a{
+    text-indent: -9999px;
+}
+
+
+.header-content {
+  margin: 20px 60px;
+  height: 145px;
 }

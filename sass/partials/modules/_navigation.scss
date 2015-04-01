@@ -3,19 +3,29 @@
 
 // Estilos generales
 
-
+li{
+	list-style: none;
+	display: inline-block;
+}
 
 // Navegación principal
 
+.header-nav{
+	float: right;
+}
 
+.header-nav li{
+	margin-right: 40px;
+}
 
 // Enlace_Logo
   
 .logo{
     @include font-size(20);
     font-family: $script;
+    float: left;
     position: fixed;
-    color: $texto4;
+    color: $texto1;
         &:hover {
             color: $destacado;
         }
