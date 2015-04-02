@@ -4,19 +4,23 @@
 
 // Tipografía
 $script: 'Dancing Script', cursive;
-$questrial: 'Questrial', sans-serif;
+$droid: 'Droid Serif', bold;
 $karla: 'Karla', sans-serif;
+$karla-bold: 'Karla', bold;
+
 
 // Colores
 $texto1: #fff; // blanco
-$texto2: #D8685D; // Naranja
+$texto2: #33CCCC; // Turquesa
 $texto3: #86898A; // Gris claro
 $texto4: #6D6E71; // Gris oscuro
-$destacado: #D8685D;  // Naranja
+$destacado: #33CCCC;  // Turquesa
 $background1: #6D6E71; // Gris oscuro
 $background2: #86898A; // Gris claro
-$background3: #000; // Negro
+$background3: #145252; // Turquesa oscuro
+$background4: #000; // Negro
 
 // Layout
 $max-width: 1400px;
 $content-width: 960px;
+$content-height: 750px;

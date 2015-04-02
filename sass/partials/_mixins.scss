@@ -10,12 +10,12 @@
 
 // Botón
 @mixin button($font-size, $text-color: #fff, $border-color: #fff, $transform: none) {
-  display: inline-block;
+  width: 151px;
   @include font-size($font-size);
   padding: 0.5em 2em;
   border: 1px solid $border-color;
   border-radius: 3px;
   color: $text-color;
   text-transform: $transform;
-  font-family: $sans;
+  font-family: $karla;
 }

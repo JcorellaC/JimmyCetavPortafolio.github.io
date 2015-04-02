@@ -22,17 +22,16 @@ li{
   
 .logo{
     @include font-size(20);
-    font-family: $script;
+    font-family: $droid;
     float: left;
     position: fixed;
-    color: $texto1;
+    color: $texto2;
         &:hover {
-            color: $destacado;
+            color: $background1;
         }
 }
 
 // Navegación footer
-
 
 
 

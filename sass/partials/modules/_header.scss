@@ -9,51 +9,36 @@ header{
   overflow: hidden;
 }
 
-.header-info{
-  text-align: center;
-}
-.header-info{
-  text-align: center;
+.links{
+  margin: 190px 119px 0 0;
+  float: right;
 }
 
 .header-info h1{
-  font-family: $script;
-  font-size: 40px;
+  color: $texto1;
+  text-align: center;
+  font-weight: 600;
+  font-family: $droid;
+  @include font-size (41);
 }
 
-.network0{
-  background-image:url(../img/face.png);
-  width: 104px;
-  height: 104px;
+.network{
+  color:$destacado;
+  @include font-size(50);
+  margin: 1rem;
     &:hover{
-      background-image:url(../img/face_hover.png);
+      color:$texto1;
     }
 }
-
-.network1{
-  background-image:url(../img/twitter.png);
-  width: 104px;
-  height: 104px;
-    &:hover{
-      background-image:url(../img/twitter_hover.png);
-    }
-}
-
-.network2{
-  background-image:url(../img/git.png);
-  width: 104px;
-  height: 104px;
-    &:hover{
-      background-image:url(../img/git_hover.png);
-    }
-}
-
-.links li, a{
-    text-indent: -9999px;
-}
-
 
 .header-content {
-  margin: 20px 60px;
-  height: 145px;
+  margin: 15px 60px;
+  height: 160px;
+  width: 1200px;
+}
+
+.header-info {
+  background-color: rgba(51,204,204, 0.2);
+  width: 800px;
+  margin: 0 auto;
 }
