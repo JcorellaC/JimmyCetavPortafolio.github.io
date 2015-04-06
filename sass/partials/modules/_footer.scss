@@ -1,0 +1,141 @@
+//
+//footer
+//
+
+footer{
+	background-image: url(../img/background-grey.jpg);
+}
+
+.contact-info{
+	float: right;
+}
+
+.contact-info p{
+	font-family: $script;
+	@include font-size(20);
+	border-bottom: 1px solid rgb(255, 255, 255);
+	border-right: 1px solid rgb(255, 255, 255);
+}
+
+.touch-with-me{
+	width: 313px;
+}
+
+footer input{
+	color: $texto1;
+	padding: 5px;
+	background-color: $hover-blanco;
+	border: none;
+	border-bottom: 1px solid rgb(255, 255, 255);
+	border-right: 1px solid rgb(255, 255, 255); 
+	@include font-size(17);
+	height: 30px;
+	width: 343px;
+	margin-bottom: 10px;
+}
+
+footer textarea{
+	color: $texto1;
+	padding: 5px;
+	background-color: $hover-blanco;
+	border: none;
+	border-bottom: 1px solid $texto1;
+	border-right: 1px solid $texto1; 
+	font-size: 17px;
+	margin-bottom: 10px;
+}
+
+footer span{
+	width: 30px;
+}
+
+footer label{ 
+	font-family: $script;
+	color: $texto1;
+	@include font-size(20);
+}
+
+.label{
+	margin-top: 3px;
+	font-family: $script;
+	color: $texto1;
+	@include font-size(20);
+}
+
+.send{
+	  background-color: transparent;
+}
+
+.links-conteiner{
+	float:right;
+}
+
+footer .network{
+    @include font-size(30);
+    margin: 1rem;
+}
+
+footer .links{
+	margin: 0;
+	padding: 0;
+}
+
+footer .text{
+	  margin-bottom: 27px;
+}
+
+.fa-envelope{
+	@include font-size(15);
+}
+
+.network-link{
+	color: $texto1;
+}
+
+.network0{
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+        &:hover{
+        color: #3D5B99;
+  }  
+}
+
+.network1{
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    &:hover{
+    color: #5EA9DD;
+    }  
+}
+
+.network2{
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+        &:hover{
+        color: #000;
+        }  
+}
+
+.network3{
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+        &:hover{
+        color: #0B2B5C;
+       }  
+}
+
+.copy{
+	  margin: 0;
+}

@@ -11,16 +11,20 @@ $karla-bold: 'Karla', bold;
 
 // Colores
 $texto1: #fff; // blanco
-$texto2: #33CCCC; // Turquesa
-$texto3: #86898A; // Gris claro
-$texto4: #6D6E71; // Gris oscuro
-$destacado: #33CCCC;  // Turquesa
-$background1: #6D6E71; // Gris oscuro
-$background2: #86898A; // Gris claro
-$background3: #145252; // Turquesa oscuro
-$background4: #000; // Negro
+$texto2: #50B7C8; // Turquesa
+$texto3: #665464; // Morado
+$texto4: #564650; // Morado oscuro
+$texto5: #B4494F; // Rojo
+$destacado: #50B7C8;  // Turquesa
+$background1: #564650; // Morado oscuro
+$background2: #B4494F; // Rojo
+
+$background3: #68A097; // Turquesa oscuro
+$background4: #81A156; // Verde
+$hover-blanco: rgba(255, 255, 255, 0.3); //Blanco opaco
+$background5: #63080D; //Rojo oscuro
 
 // Layout
 $max-width: 1400px;
 $content-width: 960px;
-$content-height: 750px;
+$content-height: 650px;

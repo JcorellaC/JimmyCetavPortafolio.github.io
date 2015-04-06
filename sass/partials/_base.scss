@@ -3,48 +3,78 @@
 //
 
 html {
-  box-sizing: border-box;
-  font-size: 62.5%;
+    box-sizing: border-box;
+    font-size: 62.5%;
 }
 
 * {
-  box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 body {
-  margin: 0;
+    margin: 0;
 }
 
 ul, ol {
-  margin: 0;
+    margin: 0;
 }
 
 p, li {
-  font-family: $karla;
-  margin-bottom: 0.3em;
-  @include font-size(17);
-  color: $texto1;
+    font-family: $karla;
+    margin-bottom: 0.3em;
+    @include font-size(17);
+    color: $texto1;
+}
+
+
+li{
+    list-style: none;
+    display: inline-block;
 }
 
 a {
-  color: $texto1;
-  text-decoration: none;
-  &:hover {
-    color: $destacado;
-    background-color: rgba(255, 255, 255, 0.1);
-  }
+    text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: $texto3;
-  font-family: $droid;
+    color: $texto1;
+    margin-bottom: 20px;
+    font-family: $droid;
 }
 
 h1{ 
-   margin:0px;
-   padding:20px 20px 20px 20px;
-   @include font-size(34);
-   font-weight:600;
-   text-align:center;
+    margin:0px;
+    padding:20px 20px 20px 20px;
+    @include font-size(34);
+    text-align:center;
 }
 
+.info .projects-buttom {
+    font-family: $karla-bold;
+    @include font-size(11);
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;   color: $texto1;
+    text-transform: uppercase;
+        &:hover {
+        background: $hover-blanco;
+        }
+}
+
+.buttom {
+    @include button(11, $transform: uppercase);
+    &:hover{
+      background-color:$hover-blanco;
+    }
+  }
+
+  .text{
+  text-align: center;
+  }
+
+.fix-nav{ 
+  width: 100%;
+  background-color: $destacado;
+  position: fixed;
+  z-index: 10;
+}
