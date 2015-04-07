@@ -2,9 +2,25 @@
 // Layout styles
 //
 
+.index-header{
+    height: $content-height;
+}
+
+.container{
+   height: $content-height;
+   width: 100%;
+}
+
+.reference{
+	height: $content-height;
+}
+
+.biography{
+	height: $content-height;
+}
 
 .footer-content {
   padding: 30px 0 0px 0;
     @extend %content;
- 	height:600px;
+ 	height:$content-height;
 }

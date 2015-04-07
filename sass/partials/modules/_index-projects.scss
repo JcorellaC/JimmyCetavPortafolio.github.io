@@ -2,6 +2,12 @@
 //index-projects
 //
 
+.container{
+   background-color: $background2;
+   margin: 0 auto;
+   padding-top: 50px;
+}
+
 .view-project img {
    -webkit-transform: scaleY(1);
    -moz-transform: scaleY(1);
@@ -92,14 +98,6 @@
    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
    filter: alpha(opacity=100);
    opacity: 1;
-}
-
-.container{
-   background-color: $background2;
-   height: 750px;
-   width: 100%;
-   margin: 0 auto;
-   padding-top: 30px;
 }
 
 .clr{

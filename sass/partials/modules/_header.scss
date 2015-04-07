@@ -6,7 +6,6 @@
     background-color: $destacado;
     background-repeat: no-repeat;
     background-position: center;
-    height: 645px;
     overflow: hidden;
 }
 
@@ -18,23 +17,22 @@
 }
 
 .header-info h1{
-    color: $background1;
+    padding: 0;
+    color: $texto1;
     text-align: center;
     font-weight: 600;
-    font-family: $droid;
+    font-family: $script;
     @include font-size (41);
 }
 
 .header-content {
     margin: 15px 60px;
     height: 160px;
-    width: 1200px;
 }
 
 .header-info {
     background-color: rgba(255, 255, 255, 0.3);
     width: 800px;
     padding: 20px;
-    height: 125px;
     margin: 0 auto;
 }

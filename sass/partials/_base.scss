@@ -69,12 +69,13 @@ h1{
   }
 
   .text{
-  text-align: center;
+    text-align: center;
+    padding-bottom: 45px;
   }
 
 .fix-nav{ 
-  width: 100%;
-  background-color: $destacado;
-  position: fixed;
-  z-index: 10;
+    width: 100%;
+    background-color: $destacado;
+    position: fixed;
+    z-index: 10;
 }
