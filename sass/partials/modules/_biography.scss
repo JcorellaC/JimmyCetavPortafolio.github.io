@@ -14,26 +14,42 @@
 
 .know-list{
 	padding: 0px;
-}
-
-.know-list li{
-	margin: 40px 4px 4px;
-    width: 470px;
-    height: 175px;
-    overflow: hidden;
-    position: relative;
-    display: inline-block;
-    background-color: #010;
-    -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
-    -moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
-    box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
-    margin-bottom: 4px;
-    -webkit-transition: all 300ms ease-in-out;
-	-moz-transition: all 300ms ease-in-out;
-	-o-transition: all 300ms ease-in-out;
-	-ms-transition: all 300ms ease-in-out;
-	transition: all 300ms ease-in-out;
-}
+    li{
+        margin: 40px 4px 4px;
+        width: 470px;
+        height: 175px;
+        overflow: hidden;
+        position: relative;
+        display: inline-block;
+        background-color: #010;
+        -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+        -moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+        box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+        margin-bottom: 4px;
+        -webkit-transition: all 300ms ease-in-out;
+        -moz-transition: all 300ms ease-in-out;
+        -o-transition: all 300ms ease-in-out;
+        -ms-transition: all 300ms ease-in-out;
+        transition: all 300ms ease-in-out;
+        &:hover{
+            background-color: #000;
+            .know-icon{
+                color: $background4;
+                font-size: 120px;
+                opacity: 0.2;
+                left: -20px;
+                -webkit-transform: rotate(20deg);
+                -moz-transform: rotate(20deg);
+                -ms-transform: rotate(20deg);
+                transform: rotate(20deg);
+            }
+            .know-main{
+                color: $background4;
+                opacity: 0.8;
+            }
+        }
+    }
+} 
 
 .know-icon{
     font-family: 'WebSymbolsRegular', cursive;
@@ -59,10 +75,9 @@
     width: 275px;
     height: 60px;
     top: 70px;
-}
-
-.know-content p{
-	font-family: $script;
+    p{
+        font-family: $script;
+    }
 }
 
 .one{
@@ -79,27 +94,13 @@
 	margin-bottom: 20px;
 	margin-left: 20px;
 }
+
 .know-sub{
     font-size: 14px;
     color: #666;
 }
-.know-list li:hover{
-    background-color: #000;
-}
-.know-list li:hover .know-icon{
-    color: $background4;
-    font-size: 120px;
-    opacity: 0.2;
-    left: -20px;
-    -webkit-transform: rotate(20deg);
-    -moz-transform: rotate(20deg);
-    -ms-transform: rotate(20deg);
-    transform: rotate(20deg);
-}
-.know-list li:hover .know-main{
-    color: $background4;
-    opacity: 0.8;
-}
+
+
 .know-list li:hover .know-sub{
     color: $texto1;
     opacity: 0.8;
@@ -109,19 +110,19 @@
     display: inline-block;
     width: 88px;
     text-align: center;
+    p{
+        color: $texto1;
+        display: block;
+    }
 }
 
-.programs p{
-	color: $texto1;
-	display: block;
-}
 
-.CV{
+.cv{
 	@include font-size(20);
 	border-radius: 5px;
 	position: absolute;
     text-align: center;
     right: 600px;
-	top: 2750px;
+	top: 3000px;
 }
 

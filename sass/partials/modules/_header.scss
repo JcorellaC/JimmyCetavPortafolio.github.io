@@ -14,15 +14,10 @@
     width: 1000px;
     height: 100px;
     background-image:url(../img/web_designer_code_tools.png);
-}
-
-.header-info h1{
-    padding: 0;
-    color: $texto1;
-    text-align: center;
-    font-weight: 600;
-    font-family: $script;
-    @include font-size (41);
+    p{
+        position: absolute;
+        z-index: -9999;
+    }
 }
 
 .header-content {
@@ -35,4 +30,12 @@
     width: 800px;
     padding: 20px;
     margin: 0 auto;
+    h1{
+        padding: 0;
+        color: $texto1;
+        text-align: center;
+        font-weight: 600;
+        font-family: $script;
+        @include font-size (41);
+    }
 }
