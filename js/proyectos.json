@@ -1,0 +1,46 @@
+{
+	"proyectos" : [
+		{
+			"ID" : "La Iluminada",
+			"descripcion" : "Proyecto realizado con Diego Artavia -Disenador y Desarrollador web- con el fin de completar una pagina web completa aplicando todos los conocimientos aprendidos en clase",
+			"imagen1" : "iluminada-header",
+			"imagen2" : "iluminada-productos",
+			"imagen3" : "iluminada-more",
+			"cliente" : "Fue realizado para el Centro de Tecnologias y Artes Visuales",
+			"imagenCliente" : "cetav",
+			"more" : "Proyecto realizado con Diego Artavia -Disenador y Desarrollador web- con el fin de completar una pagina web completa aplicando todos los conocimientos aprendidos en clase",
+			"viewPage" : "iluminada/index.html"
+		},
+		{
+			"ID" : "Festival Creativo",
+			"descripcion" : "Este proyecto se realizo para promocionar actividades artisticas en el Parque La libertad, exponiendo los trabajos de las diferentes areas profecionales que alli se imparten.",
+			"imagen1" : "cartel1",
+			"imagen2" : "cartel2",
+			"imagen3" : "cartel3",
+			"cliente" : "Fue realizado para el Centro de Tecnologias y Artes Visuales en conjunto con el Parque La libertad",
+			"imagenCliente" : "cetav",
+			"more" : "Proyecto realizado con Diego Artavia -Disenador y Desarrollador web- con el fin de completar una pagina web completa aplicando todos los conocimientos aprendidos en clase"
+		},
+		{
+			"ID" : "La Iluminada",
+			"descripcion" : "Proyecto realizado con Diego Artavia -Disenador y Desarrollador web- con el fin de completar una pagina web completa aplicando todos los conocimientos aprendidos en clase",
+			"imagen1" : "iluminada-header",
+			"imagen2" : "iluminada-productos",
+			"imagen3" : "iluminada-more",
+			"cliente" : "Fue realizado para el Centro de Tecnologias y Artes Visuales",
+			"imagenCliente" : "cetav",
+			"more" : "Proyecto realizado con Diego Artavia -Disenador y Desarrollador web- con el fin de completar una pagina web completa aplicando todos los conocimientos aprendidos en clase",
+			"viewPage" : "iluminada/index.html"
+		},
+		{
+			"ID" : "Festival Creativo",
+			"descripcion" : "Este proyecto se realizo para promocionar actividades artisticas en el Parque La libertad, exponiendo los trabajos de las diferentes areas profecionales que alli se imparten.",
+			"imagen1" : "cartel1",
+			"imagen2" : "cartel2",
+			"imagen3" : "cartel3",
+			"cliente" : "Fue realizado para el Centro de Tecnologias y Artes Visuales en conjunto con el Parque La libertad",
+			"imagenCliente" : "cetav",
+			"more" : "Proyecto realizado con Diego Artavia -Disenador y Desarrollador web- con el fin de completar una pagina web completa aplicando todos los conocimientos aprendidos en clase"
+		}
+	]
+}
