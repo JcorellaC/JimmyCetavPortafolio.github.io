@@ -1,8 +1,6 @@
 $(document).ready(function(){
 
         $(function(){
-        $.blockUI();
-        setTimeout($.unblockUI, 400);
         $.ajax({
 
             type: "GET",

@@ -10,7 +10,7 @@ var portafolio = {};
           var todoCorrecto = true;
           var formulario = document.formularioContacto;
           
-          //Un closure es una función que tiene acceso al ámbito padre, incluso después de la función madre se ha cerrado.
+          //Un closure es una función que tiene acceso al ámbito padre, incluso después de que la función madre se ha cerrado.
 
          function validarFormulario(evObject) {
           evObject.preventDefault();
